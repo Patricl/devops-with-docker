@@ -1,18 +1,13 @@
-root@64108e927f65:/usr/app# tail -f /usr/app/logs.txt
-Wed, 17 Apr 2019 20:21:09 GMT
+oppilas@host:~$ docker run -d --name jokunimi devopsdockeruh/exec_bash_exercise
+oppilas@host:~$ docker exec -it jokunimi bash
+root@a67494c64a88:/usr/app# tail -f ./logs.txt
+
+Wed, 17 Apr 2019 20:30:50 GMT
 Secret message is:
 "Docker is easy"
-Wed, 17 Apr 2019 20:21:15 GMT
-Wed, 17 Apr 2019 20:21:18 GMT
-Wed, 17 Apr 2019 20:21:21 GMT
-Wed, 17 Apr 2019 20:21:24 GMT
+Wed, 17 Apr 2019 20:30:56 GMT
+Wed, 17 Apr 2019 20:30:59 GMT
+Wed, 17 Apr 2019 20:31:02 GMT
+Wed, 17 Apr 2019 20:31:05 GMT
 Secret message is:
 "Docker is easy"
-Wed, 17 Apr 2019 20:21:30 GMT
-Wed, 17 Apr 2019 20:21:33 GMT
-Wed, 17 Apr 2019 20:21:36 GMT
-Wed, 17 Apr 2019 20:21:39 GMT
-Secret message is:
-"Docker is easy"
-Wed, 17 Apr 2019 20:21:45 GMT
-Wed, 17 Apr 2019 20:21:48 GMT
