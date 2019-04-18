@@ -1,0 +1,22 @@
+oppilas@host:~/exercise-p1-6$ docker build -t docker-clock .
+
+Sending build context to Docker daemon  2.048kB
+Step 1/2 : FROM devopsdockeruh/overwrite_cmd_exercise:latest
+ ---> 0f7f459b76c9
+Step 2/2 : CMD ["-c"]
+ ---> Running in 1a33d8da1781
+Removing intermediate container 1a33d8da1781
+ ---> dfcdd1c445f5
+Successfully built dfcdd1c445f5
+Successfully tagged docker-clock:latest
+
+oppilas@host:~/exercise-p1-6$ docker run docker-clock
+1
+2
+3
+4
+5
+6
+7
+8
+9
